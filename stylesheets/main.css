@@ -3,3 +3,16 @@
     margin: 0 ;
     padding: 0 ;
 }
+
+/*Header*/
+h1 {
+    background: linear-gradient(170deg , rgba(238, 92, 165, 0.76) , rgba(42, 178, 219, 0.835) );
+    color: rgba(17, 17, 16 , 0.8) ;
+    max-height: 9vw ;
+    font-weight: bolder ;
+    font-size: 5vw ;
+    padding-bottom: 1vh ;
+    line-height: 9vw ;
+    text-align: center ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
