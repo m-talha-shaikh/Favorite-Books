@@ -6,13 +6,27 @@
 
 /*Header*/
 h1 {
-    background: linear-gradient(170deg , rgba(238, 92, 165, 0.76) , rgba(42, 178, 219, 0.835) );
-    color: rgba(17, 17, 16 , 0.8) ;
-    max-height: 9vw ;
+    color: crimson ;
+    height: 9vw ;
     font-weight: bolder ;
     font-size: 5vw ;
     padding-bottom: 1vh ;
     line-height: 9vw ;
     text-align: center ;
     font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+/*Body*/
+body {
+    background-color: whitesmoke ;
+}
+
+.grid {
+    width: 75% ;
+    margin: 50px auto ;
+    display: grid ;
+    grid-template-columns: repeat(auto-fill , minmax(250px ,1fr ));
+    grid-auto-rows: 350px ;
+    grid-gap: 30px ;
+    justify-items: center ;
 }
