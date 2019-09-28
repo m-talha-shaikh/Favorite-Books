@@ -26,7 +26,18 @@ body {
     margin: 50px auto ;
     display: grid ;
     grid-template-columns: repeat(auto-fill , minmax(250px ,1fr ));
-    grid-auto-rows: 350px ;
+    grid-auto-rows: 450px ;
     grid-gap: 30px ;
-    justify-items: center ;
+}
+
+.grid > div  {
+    border: 2px solid green; 
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+
+@media all and (min-width: 411px) and (max-width: 706px) {
+    .grid {
+        width: 60% ;
+    }
 }
